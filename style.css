@@ -1,0 +1,27 @@
+/* =========================== resetting the page =========================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.worldclock-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.worldclock-cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.worldclock-card {
+  border-right: 1px solid black;
+  padding: 10px 37px;
+  text-transform: capitalize;
+}
